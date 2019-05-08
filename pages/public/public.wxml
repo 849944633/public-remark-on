@@ -1,0 +1,240 @@
+<!--pages/public/public.wxml-->
+<view class="box">
+	<view class="header">
+		<!-- header -->
+
+		<view>
+			<!-- header-view1 -->
+			<text>北京</text>
+			<image src="../image/下.png"></image>
+		</view> <!-- header-view1 -->
+
+		<view>
+			<!-- header-view2 -->
+			<image src="../image/放大镜.png"></image>
+			<input type="text" placeholder="输入商品名字,地点,找优惠" />
+		</view> <!-- header-view2 -->
+
+		<view>
+			<!-- header-view3 -->
+			<image src="../image/我的.png"></image>
+			<text>我的</text>
+		</view> <!-- header-view3 -->
+
+	</view> <!-- header -->
+
+
+	<view class="body">
+		<!-- body -->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/美食.png"></image>
+			<text>美食</text>
+		</view> <!-- body-view1-->
+	</view> <!-- body -->
+
+
+	<view class="body-1">
+		<!--body-1-->
+
+		<view>
+			<!--body-1-1-->
+			<image src="../image/美食热榜.png"></image>
+			<text>美食热榜</text>
+		</view>
+		<!--body-1-1-->
+
+		<view>
+			<!--body-1-2-->
+			<image src="../image/今天吃啥.png"></image>
+			<text>今天吃沙</text>
+		</view>
+		<!--body-1-2-->
+
+	</view>
+	<!--body-1-->
+	<view class="img">
+		<!-- img -->
+		<image src="../image/pk.png"></image>
+	</view> <!-- img -->
+
+	<view class="like">
+		<!-- like -->
+		<text>猜你喜欢</text>
+
+		<view class="like-1">		<!-- like-1 -->
+			
+			<view class="like01">
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						<text> ＜100m </text>
+					</view>
+
+					<view>
+						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+					</view>
+					
+					<view>
+						<text>￥45<text>￥50</text></text>
+						<text>已售300</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			<view class="like01">
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						<text> ＜100m </text>
+					</view>
+			
+					<view>
+						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+					</view>
+					
+					<view>
+						<text>￥45<text>￥50</text></text>
+						<text>已售300</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			<view class="like01">
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						<text> ＜100m </text>
+					</view>
+			
+					<view>
+						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+					</view>
+					
+					<view>
+						<text>￥45<text>￥50</text></text>
+						<text>已售300</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			<view class="like01">
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						<text> ＜100m </text>
+					</view>
+			
+					<view>
+						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+					</view>
+					
+					<view>
+						<text>￥45<text>￥50</text></text>
+						<text>已售300</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			<view class="like01">
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						<text> ＜100m </text>
+					</view>
+			
+					<view>
+						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+					</view>
+					
+					<view>
+						<text>￥45<text>￥50</text></text>
+						<text>已售300</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+		</view> <!-- like-1 -->
+	</view> <!-- like -->
+</view> <!-- box -->
