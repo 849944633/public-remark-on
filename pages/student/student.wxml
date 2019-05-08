@@ -1,0 +1,70 @@
+<!--pages/student/student.wxml-->
+<view class="box">		<!-- box -->
+	
+	<view class="header">		<!-- header -->
+		
+		<view>北京 <image src="../image/下(1.png"></image></view>
+		<view><image src="../image/我的(1).png"></image></view>
+		
+	</view>			<!-- header -->
+	
+	<view class="body">		<!-- body -->
+		<view>
+		<image src="../image/美食.png"></image>
+		<text>美食</text>
+		</view>
+		<view>
+		<image src="../image/美食.png"></image>
+		<text>美食</text>
+		</view><view>
+		<image src="../image/美食.png"></image>
+		<text>美食</text>
+		</view><view>
+		<image src="../image/美食.png"></image>
+		<text>美食</text>
+		</view>
+		
+	</view>			<!-- body -->
+	
+	<view class="like">
+		<!-- like -->
+		<text>猜你喜欢</text>
+	
+		<view class="like-1">		<!-- like-1 -->
+			
+			<view class="like01" bindtap='clickdetail'>
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						
+					</view>
+			
+					<view>
+						<image src="../image/收藏.png"></image>
+						<text>￥81/人</text>
+					</view>
+					
+					<view>
+						<text>草桥<text>北京菜</text></text>
+						<text>250m</text>
+					</view>
+					
+					<view class="foot">
+						<text>古色古香</text>
+						<text>菜色精致</text>
+						<text>色香俱全</text>
+						<text>好吃不贵</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			
+			
+		
+		</view> <!-- like-1 -->
+	</view> <!-- like -->
+	
+</view>			<!-- box -->
+	

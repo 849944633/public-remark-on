@@ -1,0 +1,53 @@
+<!--pages/nearby/nearby.wxml-->
+<view class="box">		<!-- box -->
+	<view class="header">			<!-- header -->
+ 		<view>			<!-- header-1 -->
+			<text>550米</text>
+		<image src="../image/上(1).png"></image>
+		</view>				<!-- header-1 -->
+		<view>			<!-- header-2 -->
+		<text>离我最近</text>
+		<image src="../image/下.png"></image>
+		</view>			<!-- header-2 -->
+	</view>			<!-- header -->
+	
+	<view class="like">
+		<!-- like -->
+	
+		<view class="like-1">		<!-- like-1 -->
+			
+			<view class="like01" bindtap='clickdetail'>
+				<!-- like-01 -->
+				<image src="../image/pk.png"></image>
+				<view class="like-font">		<!-- like-font -->
+					
+					<view>
+						顺丰撒旦发艾飞
+						
+					</view>
+			
+					<view>
+						<image src="../image/收藏.png"></image>
+						<text>￥81/人</text>
+					</view>
+					
+					<view>
+						<text>草桥<text>北京菜</text></text>
+						<text>250m</text>
+					</view>
+					
+					<view class="foot">
+						<text>古色古香</text>
+						<text>菜色精致</text>
+						<text>色香俱全</text>
+						<text>好吃不贵</text>
+					</view>
+				</view> <!-- like-font -->
+			</view> <!-- like-01 -->
+			
+			
+		
+		</view> <!-- like-1 -->
+	</view> <!-- like -->
+	
+</view>			<!-- box -->

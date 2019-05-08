@@ -49,13 +49,14 @@
 	flex-wrap: wrap;
 	padding: 20rpx;
 	margin-top: 20rpx;
+	/* border: 1px solid red; */
 }
 
 .body view {
 	width: 20%;
 	box-sizing: border-box;
-	height: 200rpx;
-	/* 	border: 2rpx solid red; */
+	height: 150rpx;
+	/* border: 2rpx solid red; */
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -63,11 +64,12 @@
 
 .body view text {
 	margin-top: 15rpx;
+	font-size: 30rpx;
 }
 
 .body view image {
-	width: 100rpx;
-	height: 100rpx;
+	width: 80rpx;
+	height: 80rpx;
 }
 
 .body-1 {
@@ -84,13 +86,13 @@
 
 .body-1 view {
 	width: 50%;
-	height: 200rpx;
+	height: 150rpx;
 	border: 2rpx solid #F4F4F4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	font-size: 50rpx;
+	font-size: 35rpx;
 }
 
 .body-1 view text {
@@ -104,7 +106,7 @@
 
 .img {
 	width: 100%;
-	height: 250rpx;
+	height: 200rpx;
 	box-sizing: border-box;
 	padding: 20rpx;
 }
