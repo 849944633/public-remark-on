@@ -2,13 +2,15 @@
 <view class="box">
 	<view class="header">
 		<!-- header -->
-
 		<view>
 			<!-- header-view1 -->
-			<text>北京</text>
+			<text>上海</text>
 			<image src="../image/下.png"></image>
 		</view> <!-- header-view1 -->
+<<<<<<< HEAD
           
+=======
+>>>>>>> origin/master
 		<view>
 			<!-- header-view2 -->
 			<image src="../image/放大镜.png"></image>
@@ -34,73 +36,73 @@
 
 		<view>
 			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
+			<image src="../image/3_17.png"></image>
+			<text>外卖</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_19.png"></image>
+			<text>休闲娱乐</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_21.png"></image>
+			<text>KTV</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_23.png"></image>
+			<text>景点/门票</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_31.png"></image>
+			<text>酒店</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_32.png"></image>
+			<text>电影/演出</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_33.png"></image>
+			<text>足疗/按摩</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_34.png"></image>
+			<text>丽人/美发</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_40.png"></image>
+			<text>购物/商场</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_40.png"></image>
+			<text>到家服务</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_41.png"></image>
+			<text>宠物</text>
+		</view> <!-- body-view1-->
+		<view>
+			<!-- body-view1-->
+			<image src="../image/3_42.png"></image>
 			<text>美食</text>
 		</view> <!-- body-view1-->
 		<view>
 			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
+			<image src="../image/3_43.png"></image>
+			<text>民宿/公寓</text>
 		</view> <!-- body-view1-->
 		<view>
 			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
-		</view> <!-- body-view1-->
-		<view>
-			<!-- body-view1-->
-			<image src="../image/美食.png"></image>
-			<text>美食</text>
+			<image src="../image/3_44.png"></image>
+			<text>全部</text>
 		</view> <!-- body-view1-->
 	</view> <!-- body -->
 
@@ -135,26 +137,28 @@
 
 		<view class="like-1">		<!-- like-1 -->
 			
-			<view class="like01" bindtap='clickdetail'>
+			<view class="like01" wx:for="{{public}}" wx:key="no" data-item="{{item.id}}" bindtap='clickdetail'>
 				<!-- like-01 -->
 				<image src="../image/pk.png"></image>
 				<view class="like-font">		<!-- like-font -->
 					
 					<view>
-						顺丰撒旦发艾飞
-						<text> ＜100m </text>
+						{{item.title}}
+						<text> ＜{{item.distance}}m </text>
 					</view>
 			
 					<view>
-						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
+						{{item.label}}
 					</view>
 					
 					<view>
-						<text>￥45<text>￥50</text></text>
-						<text>已售300</text>
+						<text>￥{{item.score}}<text>￥{{item.price}}</text></text>
+						<text>已售{{item.view}}</text>
 					</view>
-				</view> <!-- like-font -->
-			</view> <!-- like-01 -->
+				</view>
+         <!-- like-font -->
+			</view> 
+      <!-- like-01 -->
 			
 			
 		
