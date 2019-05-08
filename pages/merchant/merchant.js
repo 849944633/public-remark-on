@@ -1,18 +1,27 @@
 // pages/merchant/merchant.js
+import { IndexModel } from './../../models/public'
+let index = new IndexModel()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    detail: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let { id } = options
+    console.log(id)
+    index.dataDetail(id).then(res => {
+      console.log(res.data)
+      this.setData({
+        detail: res.data.info
+      })
+    })
   },
 
   /**

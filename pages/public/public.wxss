@@ -63,11 +63,12 @@
 
 .body view text {
 	margin-top: 15rpx;
+  font-size: 26rpx;
 }
 
 .body view image {
-	width: 100rpx;
-	height: 100rpx;
+	width: 60rpx;
+	height: 60rpx;
 }
 
 .body-1 {

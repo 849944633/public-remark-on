@@ -1,70 +1,24 @@
 // pages/public/public.js
+import { IndexModel } from './../../models/public'
+let index = new IndexModel()
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    public: []
   },
-	clickdetail:function(){
-		wx.navigateTo({
-			url:"../merchant/merchant"
-		})
-	},
-  /**
-   * 生命周期函数--监听页面加载
-   */
+  clickdetail: function (item) {
+    console.log(item.currentTarget.dataset.item)
+    let id = item.currentTarget.dataset.item
+    wx.navigateTo({
+      url: "../merchant/merchant?id=" + id
+    })
+  },
   onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+    index.dataList(1, 10).then(res => {
+      console.log(res)
+      this.setData({
+        public: res.data
+      })
+    })
   }
 })

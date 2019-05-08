@@ -5,20 +5,20 @@
             <image src='../image/1_03.png'></image>
         </view> 
         <view class='head-two'>
-            <view>HaveFun!有饭(西二旗店)</view>
+            <view>{{detail.title}}</view>
             <view class='bb'>
               <image src='../image/1_08.png'></image>
               <text>559条</text>
               <text>￥41/人</text>
             </view>
-            <view class='aa'>口味：7.8 环境：601 服务：2.2</view>
+            <view class='aa'>口味：7.8 环境：{{detail.environment}} 服务：{{detail.service}}</view>
             <view class='aa'>上帝  快餐简介</view>
         </view>
     </view>
 
     <view class='eyes'>
         <image src='../image/0.png'></image>
-        营业至21:00
+        营业:{{detail.shopHours}}
         <image src='../image/4_03.png'></image>
         WIFI
         <image src='../image/0-1.png'></image>
@@ -31,7 +31,7 @@
           <image src='../image/2_03.png'></image>
       </view>
       <view>
-          <view>上地十街辉煌国际6号楼地上1-2楼</view>
+          <view>{{detail.specific}}</view>
           <view>(地铁13好线西二旗A口西500米)</view>
           <view>据您不行60米，需要1分钟</view>
       </view>
