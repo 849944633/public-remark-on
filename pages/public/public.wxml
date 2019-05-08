@@ -8,7 +8,6 @@
 			<text>北京</text>
 			<image src="../image/下.png"></image>
 		</view> <!-- header-view1 -->
-    YANG
 		<view>
 			<!-- header-view2 -->
 			<image src="../image/放大镜.png"></image>
