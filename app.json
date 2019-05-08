@@ -1,6 +1,7 @@
 {
   "pages": [
 		"pages/public/public",
+		"pages/merchant/merchant",
     "pages/logs/logs"
 		
   ],

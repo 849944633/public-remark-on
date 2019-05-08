@@ -1,4 +1,4 @@
-// pages/public/public.js
+// pages/merchant/merchant.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-	clickdetail:function(){
-		wx.navigateTo({
-			url:"../merchant/merchant"
-		})
-	},
+
   /**
    * 生命周期函数--监听页面加载
    */

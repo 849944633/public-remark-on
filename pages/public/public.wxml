@@ -135,27 +135,7 @@
 
 		<view class="like-1">		<!-- like-1 -->
 			
-			<view class="like01">
-				<!-- like-01 -->
-				<image src="../image/pk.png"></image>
-				<view class="like-font">		<!-- like-font -->
-					
-					<view>
-						顺丰撒旦发艾飞
-						<text> ＜100m </text>
-					</view>
-
-					<view>
-						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
-					</view>
-					
-					<view>
-						<text>￥45<text>￥50</text></text>
-						<text>已售300</text>
-					</view>
-				</view> <!-- like-font -->
-			</view> <!-- like-01 -->
-			<view class="like01">
+			<view class="like01" bindtap='clickdetail'>
 				<!-- like-01 -->
 				<image src="../image/pk.png"></image>
 				<view class="like-font">		<!-- like-font -->
@@ -175,66 +155,9 @@
 					</view>
 				</view> <!-- like-font -->
 			</view> <!-- like-01 -->
-			<view class="like01">
-				<!-- like-01 -->
-				<image src="../image/pk.png"></image>
-				<view class="like-font">		<!-- like-font -->
-					
-					<view>
-						顺丰撒旦发艾飞
-						<text> ＜100m </text>
-					</view>
 			
-					<view>
-						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
-					</view>
-					
-					<view>
-						<text>￥45<text>￥50</text></text>
-						<text>已售300</text>
-					</view>
-				</view> <!-- like-font -->
-			</view> <!-- like-01 -->
-			<view class="like01">
-				<!-- like-01 -->
-				<image src="../image/pk.png"></image>
-				<view class="like-font">		<!-- like-font -->
-					
-					<view>
-						顺丰撒旦发艾飞
-						<text> ＜100m </text>
-					</view>
 			
-					<view>
-						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
-					</view>
-					
-					<view>
-						<text>￥45<text>￥50</text></text>
-						<text>已售300</text>
-					</view>
-				</view> <!-- like-font -->
-			</view> <!-- like-01 -->
-			<view class="like01">
-				<!-- like-01 -->
-				<image src="../image/pk.png"></image>
-				<view class="like-font">		<!-- like-font -->
-					
-					<view>
-						顺丰撒旦发艾飞
-						<text> ＜100m </text>
-					</view>
-			
-					<view>
-						东方故事大神手机壳防腐剂和阿斯顿发斯蒂芬撒大方撒大方大师傅福克斯发生过的付款开发框架安德森狗放歌看到个搜二哥hi静安寺快递费呢百分都放假了妇女被警方噶发空格键
-					</view>
-					
-					<view>
-						<text>￥45<text>￥50</text></text>
-						<text>已售300</text>
-					</view>
-				</view> <!-- like-font -->
-			</view> <!-- like-01 -->
+		
 		</view> <!-- like-1 -->
 	</view> <!-- like -->
 </view> <!-- box -->

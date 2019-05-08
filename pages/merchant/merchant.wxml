@@ -1,0 +1,86 @@
+<!--pages/merchant/merchant.wxml-->
+<view class='mear'>
+    <view class='head'>
+        <view class='head-one'>
+            <image src='../image/1_03.png'></image>
+        </view> 
+        <view class='head-two'>
+            <view>HaveFun!有饭(西二旗店)</view>
+            <view class='bb'>
+              <image src='../image/1_08.png'></image>
+              <text>559条</text>
+              <text>￥41/人</text>
+            </view>
+            <view class='aa'>口味：7.8 环境：601 服务：2.2</view>
+            <view class='aa'>上帝  快餐简介</view>
+        </view>
+    </view>
+
+    <view class='eyes'>
+        <image src='../image/0.png'></image>
+        营业至21:00
+        <image src='../image/4_03.png'></image>
+        WIFI
+        <image src='../image/0-1.png'></image>
+        停车场
+        <image src='../image/5_03.png'></image>
+    </view>
+
+    <view class='nose'>
+      <view>
+          <image src='../image/2_03.png'></image>
+      </view>
+      <view>
+          <view>上地十街辉煌国际6号楼地上1-2楼</view>
+          <view>(地铁13好线西二旗A口西500米)</view>
+          <view>据您不行60米，需要1分钟</view>
+      </view>
+      <view>|</view>
+      <view>
+        <image src='../image/3_03.png'></image>
+      </view>
+    </view>
+
+    <view class='mouse'>
+      <view>榜</view>
+      <view>[上地小吃快餐门榜] 第<text>1</text>名</view>
+    </view>
+
+    <view class='lag'>
+      <view class='lag-one'>团</view>
+      <view class='lag-two'>
+        <view><image src='../image/1_03.png'></image></view>
+        <view>
+            <view>担任套餐，提供免费WiFi</view>
+            <view>￥35<text>￥57</text></view>
+        </view>
+        <view>已售24</view>
+      </view>
+    </view>
+    <view class='lag'>
+      <view class='lag-one'>团</view>
+      <view class='lag-two'>
+        <view><image src='../image/1_03.png'></image></view>
+        <view>
+            <view>担任套餐，提供免费WiFi</view>
+            <view>￥35<text>￥57</text></view>
+        </view>
+        <view>已售24</view>
+      </view>
+    </view>
+
+    <view class='foot'>查看其他4个团购></view>
+
+    <view class='short'>
+      <view>
+          <image src='../image/6_03.png'></image>
+          收藏
+      </view>
+      <view>|</view>
+      <view>
+          <image src='../image/7_03.png'></image>
+          写点评
+      </view>
+    </view>
+
+</view>
