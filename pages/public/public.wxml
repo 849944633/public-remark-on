@@ -7,10 +7,6 @@
 			<text>上海</text>
 			<image src="../image/下.png"></image>
 		</view> <!-- header-view1 -->
-<<<<<<< HEAD
-          
-=======
->>>>>>> origin/master
 		<view>
 			<!-- header-view2 -->
 			<image src="../image/放大镜.png"></image>

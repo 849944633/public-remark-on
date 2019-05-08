@@ -64,21 +64,21 @@
 
 .body view text {
 	margin-top: 15rpx;
-<<<<<<< HEAD
+
 	font-size: 30rpx;
 }
 
 .body view image {
 	width: 80rpx;
 	height: 80rpx;
-=======
+
   font-size: 26rpx;
 }
 
 .body view image {
 	width: 60rpx;
 	height: 60rpx;
->>>>>>> origin/master
+
 }
 
 .body-1 {
