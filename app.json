@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/location/location",
-    "pages/public/public",
+		"pages/public/public",
     "pages/nearby/nearby",
     "pages/student/student",
     "pages/merchant/merchant",

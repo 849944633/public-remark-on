@@ -2,11 +2,13 @@
 <view class="box">
 	<view class="header">
 		<!-- header -->
-		<view bindtap='clicklocation'>
+		<view bindtap='bindCityView'>
 			<!-- header-view1 -->
-			<text>上海</text> 
+			<text> {{trainCity}}</text>
 			<image src="../image/下.png"></image>
-		</view> <!-- header-view1 -->
+		<!-- header-view1 -->
+		</view>
+		
 		<view>
 			<!-- header-view2 -->
 			<image src="../image/放大镜.png"></image>

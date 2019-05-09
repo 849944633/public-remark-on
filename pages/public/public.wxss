@@ -21,7 +21,14 @@
 	width: 40rpx;
 	height: 40rpx;
 }
-
+.header>view:nth-of-type(1)>text{
+	display: inline-block;
+	width:70rpx;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 .header>view:nth-of-type(2) input {
 	background: #F4F4F4;
 	width: 550rpx;

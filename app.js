@@ -35,6 +35,6 @@ App({
   },
   globalData: {
     userInfo: null,
-    trainCity: '杭州'
+    trainCity: '北京'
   }
 })

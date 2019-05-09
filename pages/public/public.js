@@ -1,10 +1,11 @@
 // pages/public/public.js
 import { IndexModel } from './../../models/public'
 let index = new IndexModel()
-
+const app = getApp()
 Page({
   data: {
-    public: []
+    public: [],
+		trainCity: ''
   },
   clickdetail: function (item) {
     console.log(item.currentTarget.dataset.item)
@@ -25,5 +26,16 @@ Page({
         public: res.data
       })
     })
-  }
+  },
+	onPullDownRefresh: function () {
+	  wx.stopPullDownRefresh();
+	},
+	bindCityView: function () {
+	  wx.navigateTo({
+	    url: '../citys/citys',
+	  })
+	},
+	onShow: function () {
+	  this.setData({ trainCity: app.globalData.trainCity })
+	}
 })
