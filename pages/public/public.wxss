@@ -22,7 +22,7 @@
 	height: 40rpx;
 }
 
-.header view:nth-of-type(2) input {
+.header>view:nth-of-type(2) input {
 	background: #F4F4F4;
 	width: 550rpx;
 	border-radius: 50rpx;
@@ -30,13 +30,13 @@
 	text-align: center;
 }
 
-.header view:nth-of-type(2) image {
+.header>view:nth-of-type(2) image {
 	position: absolute;
 	top: 30rpx;
 	left: 170rpx;
 }
 
-.header view:nth-of-type(3) {
+.header>view:nth-of-type(3) {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -52,7 +52,7 @@
 	/* border: 1px solid red; */
 }
 
-.body view {
+.body>view {
 	width: 20%;
 	box-sizing: border-box;
 	height: 150rpx;
@@ -62,11 +62,11 @@
 	flex-direction: column;
 }
 
-.body view text {
+.body>view text {
 	margin-top: 15rpx;
 
 	font-size: 30rpx;
-}
+} 
 
 .body view image {
 	width: 80rpx;
@@ -89,11 +89,11 @@
 	padding: 20rpx;
 }
 
-.body-1 view:nth-of-type(1) {
+.body-1>view:nth-of-type(1) {
 	margin-right: 20rpx;
 }
 
-.body-1 view {
+.body-1>view {
 	width: 50%;
 	height: 150rpx;
 	border: 2rpx solid #F4F4F4;
@@ -104,7 +104,7 @@
 	font-size: 35rpx;
 }
 
-.body-1 view text {
+.body-1>view text {
 	margin-left: 10rpx;
 }
 
@@ -129,7 +129,7 @@
 	box-sizing: border-box;
 	padding: 20rpx;
 }
-.like text:nth-of-type(1){
+.like>text:nth-of-type(1){
 	font-size: 35rpx;
 	color: #AAAAAA;
 }
@@ -151,16 +151,26 @@
 	height: 100%;
 	margin-left: 20rpx;
 }
-.like-font view:nth-of-type(1){
+.like-font>view:nth-of-type(1){
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	font-size: 35rpx;
 	font-weight: 800;
+	height: 80rpx;
 }
-.like-font view:nth-of-type(1) text{
+.like-font>view:nth-of-type(1) text:nth-of-type(1){
+	display: inline-block;
+	width: 380rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.like-font>view:nth-of-type(1) text:nth-of-type(2){
 	font-size: 28rpx;
+	color: #808080;
 }
-.like-font view:nth-of-type(2){
+.like-font>view:nth-of-type(2){
 	margin-top: 10rpx;
 	width: 520rpx;
 	color: #AAAAAA;
@@ -170,17 +180,17 @@
 	-webkit-line-clamp:2;
 	
 }
-.like-font view:nth-of-type(3){
+.like-font>view:nth-of-type(3){
 	margin-top: 15rpx;
 	display: flex;
 	justify-content: space-between;
 }
-.like-font view:nth-of-type(3) text:nth-of-type(1){
+.like-font>view:nth-of-type(3) text:nth-of-type(1){
 	color:#FF0000;
 	font-size: 40rpx;
 	font-weight: 700;
 }
-.like-font view:nth-of-type(3) text:nth-of-type(1) text{
+.like-font>view:nth-of-type(3) text:nth-of-type(1) text{
 	color: #AAAAAA;
 	font-size: 30rpx;
 	margin-left: 10rpx;
@@ -188,7 +198,7 @@
 	text-decoration: line-through;
 
 }
-.like-font view:nth-of-type(3) text:nth-of-type(2){
+.like-font>view:nth-of-type(3) text:nth-of-type(2){
 	color: #AAAAAA;
 	margin-top: 10rpx;
 }

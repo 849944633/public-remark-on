@@ -2,9 +2,9 @@
 <view class="box">
 	<view class="header">
 		<!-- header -->
-		<view>
+		<view bindtap='clicklocation'>
 			<!-- header-view1 -->
-			<text>上海</text>
+			<text>上海</text> 
 			<image src="../image/下.png"></image>
 		</view> <!-- header-view1 -->
 		<view>
@@ -135,11 +135,11 @@
 			
 			<view class="like01" wx:for="{{public}}" wx:key="no" data-item="{{item.id}}" bindtap='clickdetail'>
 				<!-- like-01 -->
-				<image src="../image/pk.png"></image>
+				<image src="../image/3_41.png"></image>
 				<view class="like-font">		<!-- like-font -->
 					
 					<view>
-						{{item.title}}
+						<text>{{item.title}}</text>
 						<text> ＜{{item.distance}}m </text>
 					</view>
 			

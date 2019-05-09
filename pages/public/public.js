@@ -13,6 +13,11 @@ Page({
       url: "../merchant/merchant?id=" + id
     })
   },
+	clicklocation:function(event){
+		wx.navigateTo({
+			url:'../location/location'
+		})
+	},
   onLoad: function (options) {
     index.dataList(1, 10).then(res => {
       console.log(res)

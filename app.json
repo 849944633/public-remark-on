@@ -1,17 +1,19 @@
 {
   "pages": [
-		"pages/public/public",
-		"pages/nearby/nearby",
-		"pages/student/student",
+    "pages/location/location",
+    "pages/public/public",
+    "pages/nearby/nearby",
+    "pages/student/student",
     "pages/merchant/merchant",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/citys/citys"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white",
-		"navigationBarBackgroundColor":"#181818"
-
+    "navigationBarBackgroundColor": "#181818",
+    "enablePullDownRefresh": true
   },
   "sitemapLocation": "sitemap.json"
 }
